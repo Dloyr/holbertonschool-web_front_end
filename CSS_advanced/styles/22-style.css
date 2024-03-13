@@ -67,17 +67,17 @@
     box-sizing: border-box;
   }
 
-html {
-    scroll-behavior: smooth;
-    font-size: 62.5%;
-}
-
 /* Dark mode
 =================================================*/
-html[data-section-theme=“dark”] {
+[data-section-theme=“dark”] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
 /* Body

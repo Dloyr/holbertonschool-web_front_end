@@ -1,4 +1,4 @@
-/* make custom color and use it */
+/*Make custom color and use it*/
 html {
     scroll-behavior: smooth;
 }
@@ -10,17 +10,21 @@ body {
 a {
     color: var(--text-color);
 }
+
 .visually-hidden {
     display: none;
 }
+
 .card-category {
     color: var(--color-primary);
 }
+
 .section-tagline {
     color: var(--color-primary);
 }
 
 :root {
+    /*Color variables*/
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;

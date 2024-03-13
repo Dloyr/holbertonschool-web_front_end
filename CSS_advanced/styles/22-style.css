@@ -63,10 +63,6 @@
     --nav-item-link-hover: var(--color-primary);
 }
 
-*, *:before, *:after {
-    box-sizing: border-box;
-  }
-
 /* Dark mode
 =================================================*/
 [data-section-theme=“dark”] {
@@ -74,6 +70,10 @@
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
 }
+
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
 
 html {
     scroll-behavior: smooth;

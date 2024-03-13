@@ -63,14 +63,6 @@
     --nav-item-link-hover: var(--color-primary);
 }
 
-/* Dark mode
-=================================================*/
-[data-section-theme=“dark”] {
-    --text-color: var(--color-white);
-    --section-title-color: var(--color-white);
-    background-color: var(--color-black);
-}
-
 *, *:before, *:after {
     box-sizing: border-box;
   }
@@ -78,6 +70,14 @@
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
+}
+
+/* Dark mode
+=================================================*/
+html[data-section-theme=“dark”] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background-color: var(--color-black);
 }
 
 /* Body
@@ -114,7 +114,7 @@ body {
 
 .nav .nav-link {
     display: block;
-    padding: 0.5rem 1rem
+    padding: 0.5rem 1rem;
 }
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);

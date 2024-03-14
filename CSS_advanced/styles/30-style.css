@@ -114,11 +114,9 @@ body {
 .header {
     padding: var(--header-padding)
 }
-
 .header-logo {
     position: var(--header-logo-position);
 }
-
 .header-logo a {
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
@@ -138,7 +136,6 @@ body {
     list-style: none;
     text-align: center;
 }
-
 .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
@@ -147,7 +144,6 @@ body {
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
-
 .nav .nav-link {
     display: block;
     padding: 0.5rem 1rem;
@@ -155,7 +151,6 @@ body {
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
-
 .nav .nav-link::before {
     content: "";
     position: absolute;
@@ -165,7 +160,6 @@ body {
     width: 0;
     height: 0.2rem;
 }
-
 .nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
@@ -197,7 +191,6 @@ a:active{
     color: var(--button-color);
     text-decoration: var(--button-text-decoration);
 }
-
 .button:hover {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
@@ -232,14 +225,12 @@ a:active{
     position: relative;
     overflow: hidden;
 }
-
-.card-work .card-image {
+.card-work .card-image img {
     height: 30rem;
     width: 100%;
     object-fit: cover;
     vertical-align: bottom;
 }
-
 .card-work .card-inner {
     position: absolute;
     top: -0.1rem;
@@ -247,11 +238,9 @@ a:active{
     right: -0.1rem;
     z-index: 1;
 }
-
 .card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 .card-work .card-title {
     text-align: center;
     margin: 0;
@@ -264,7 +253,6 @@ a:active{
     text-decoration: none;
     padding-top: 45%;
 }
-
 .card-work .card-title a::after {
     position: absolute;
     top: 0;
@@ -273,7 +261,6 @@ a:active{
     bottom: 0;
     content: "";
 }
-
 .card-work:hover .card-title {
     opacity: 1;
 }
@@ -281,13 +268,11 @@ a:active{
 .card-testimonial {
     text-align: center;
 }
-
 .card-testimonial .card-avatar {
     border-radius: 50%;
     width: 10rem;
     height: 10rem;
 }
-
 .card-testimonial .card-quote cite {
     display: block;
     padding-top: 1rem;
@@ -316,7 +301,6 @@ ul.row {
 .col-1-3 {
     width: 33.33%;
 }
-
 .col-1-2 {
     width: 50%;
 }
@@ -366,11 +350,9 @@ ul.row {
 .section-hero {
     background-size: 90rem auto;
 }
-
 .section-hero .section-title {
     margin-bottom: 5rem;
 }
-
 .section-hero .section-inner {
     padding: 10rem 40rem 2rem 0;
 }
